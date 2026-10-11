@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #042f0dc1;
+    background: #f6ece4;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    width: min(92%, 900px);
+    margin: 0 auto;
+    padding: 2rem 0 3rem;
+}
+
+h1,
+h2,
+h3 {
+    color: #026d22;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+p {
+    margin-top: 0;
+}
+
+header {
+    background: #175d2c;
+    color: white;
+    padding: 2rem 4%;   
+}
+
+header h1 {
+    color: white;
+}
+
+nav {
+    background: white;
+    padding: 0.75rem 4%;
+    border-bottom: 1px solid #dbe2ea;
+}
+
+nav a {
+    color: #175d2c;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #f0d6bd;
+    padding: 1.25rem 4%;
+    color:rgb(90, 72, 54);
+    text-align: center;
+}
+
+.card {
+    background: white;
+    border: 1px solid #dbe2ea;
+    border-radius: 10px;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+/* section p {
+    color: #374151;
+}
+.Highlight {
+    color: #0b6b3a;
+}
+#tentang p {
+    color: #8b1e3f;
+} */
+
+
+/* JAWABAN E */
+/* .Highlight {
+    color: blue;
+}
+#tentang p {
+    color: red;
+} */
