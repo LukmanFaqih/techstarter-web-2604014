@@ -43,10 +43,18 @@ function registerSeats(requested) {
 }
 
 const checkSeatBtn = document.querySelector("#checkSeatBtn");
+const checkRegBtn = document.querySelector("#checkRegBtn");
 
 checkSeatBtn.addEventListener("click", function () {
     const requested = Number(prompt("Berapa kursi yang ingin di cek?"));
     const result = checkSeats(requested);
+    console.log(result);
+    alert(result);
+});
+
+checkRegBtn.addEventListener("click", function () {
+    const requested = Number(prompt("Berapa kursi yang ingin di cek?"));
+    const result = registerSeats(requested);
     console.log(result);
     alert(result);
 });
