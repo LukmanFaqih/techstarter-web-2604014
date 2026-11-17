@@ -98,6 +98,23 @@ body {
     gap: 16px;
 }
 
+.status {
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    border: 1px solid currentColor;
+}
+.status.neutral { 
+    opacity: 0.8; 
+}
+.status.success { 
+    font-weight: 700; 
+    color: green;
+}
+.status.error { 
+    font-weight: 700;
+    color: darkred;
+}
+
 footer {
     background: #f0d6bd;
     padding: 1.25rem 4%;

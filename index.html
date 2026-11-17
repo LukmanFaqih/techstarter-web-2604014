@@ -10,7 +10,7 @@
 <body>
     <header>
         <p id="matkul">PROJECT APLIKASI WEB</p>
-        <h1>Tingkat 2 Teknologi Informasi</h1>
+        <h1>Tingkat 1 Teknologi Informasi</h1>
         <p>Dari siswa biasa pencinta teknologi menjadi pembuat teknologi.</p>
 
         <nav class="site-nav" aria-label="Navigasi Utama">
@@ -28,7 +28,7 @@
         <section id="tentang">
             <h2>Tentang Teknologi Informasi</h2>
             <p class="Highlight">
-                Teknologi Informasi adalah jurusan yang mempelajari tentang apa dan bagaimaa cara menggunakan, mengelola, dan membuat teknologi untuk menyimpan dan membagikan data
+                Teknologi Informasi adalah jurusan yang mempelajari tentang apa dan bagaimana cara menggunakan, mengelola, dan membuat teknologi untuk menyimpan dan membagikan data
             </p>
             <div class="card-list">
                 <article class="card">
@@ -72,7 +72,7 @@
         </section>
 
         <figure>
-            <img src="assets/images/Project Hail Mary.png" alt="Mahasiswa menggunakan komputer di laboratorium untuk praktik pengembangan web">
+            <img src="assets/images/Project Hail Mary.png" alt="Grace melayang di angkasa depan planet hijau">
             <figcaption>Praktik dimulai dari memahami alat dan struktur sebelum mengejar tampilan.</figcaption>
         </figure>
 
@@ -91,6 +91,17 @@
             <button id="checkSeatBtn" type="button">Cek Sisa Kursi</button>
             <br>
             <button id="checkRegBtn" type="button">Register Sisa Kursi</button>
+        </section>
+
+        <section id="registration" class="registration-card" aria-labelledby="registrationTitle">
+            <h2 id="registrationTitle">Cek Ketersediaan Kursi</h2>
+            <form id="seatForm">
+                <label for="seatRequest">Jumlah Kursi Yang Dibutuhkan</label>
+                <input  id="seatRequest" name="seatRequest" type="number" min="1" step="1" required>
+                <button type="submit">Cek Kursi</button>
+            </form>
+
+            <p id="seatMessage" class="status neutral" aria-live="polite">Masukkan jumlah kursi lalu tekan <b>Cek Kursi</b></p>
         </section>
     </main>
 
